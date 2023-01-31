@@ -1,0 +1,26 @@
+body{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+#progress-circle {
+    background: 
+      radial-gradient(white 50%, transparent 51%),
+      conic-gradient(transparent 0deg 0deg, gainsboro 0deg 360deg),
+      conic-gradient(skyblue 0deg, skyblue 90deg, skyblue 270deg, skyblue);
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+  }
+  
+  #submitbtn {
+    margin-top: 0.5%;
+  }
+
+  #inputvalue{
+    margin-top: 5%;
+  }

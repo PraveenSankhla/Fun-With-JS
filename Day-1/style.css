@@ -1,0 +1,129 @@
+﻿body
+{
+    background-color :aliceblue;
+}
+
+h2{
+    display:flex;
+    justify-content :center;
+}
+
+
+input{
+    background-color:white;
+    margin:5px;
+    padding:3px;
+    border-radius:5px;
+    height:15px;
+    width:25%;
+    border-style:inset;
+}
+
+.main-marks{
+    height:40vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.marks h1{
+    margin-left:30%;
+}
+
+.marksprogress{
+     margin :15px;
+     width :25%;
+     height :25px;
+}
+
+button{
+    background-color:deepskyblue;
+    border :0.5px solid blue;
+    border-radius:4px;
+    width :60px;
+    height :20px;
+    color:brown;
+}
+
+button:hover{
+    box-shadow: 2px 1px 2px black;
+    color:azure;
+}
+
+.marks1{
+    width:80px;
+    height:80px;
+    border:10px solid skyblue;
+    border-radius:50px;
+    margin-left:15px;
+}
+
+.marks h1{
+    margin-left:30%;
+}
+
+
+.mark{
+    margin:4% auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.marks{
+    width:80px;
+    height:80px;
+    border:8px solid white;
+    border-radius:50px;
+    margin-left:15px;
+}
+
+.circle{
+    position:absolute;
+    width:80px;
+    height:80px;
+    border: 8px solid skyblue;
+    border-radius:50%;
+    margin-left:-8px;
+    margin-top:-7px;
+    clip :rect(0px 150px 150px 40px)
+}
+
+.marks2{
+    width:80px;
+    height:80px;
+    border:8px solid skyblue;
+    border-radius:50px;
+    margin-left:15px;
+}
+
+.circle2{
+    position:absolute;
+    width:80px;
+    height:80px;
+    border: 8px solid white;
+    border-radius:50%;
+    margin-left:-8px;
+    margin-top:-7px;
+    clip :rect(0px 40px 50px -30px) 
+}
+
+.marks2 h1{
+    margin-left:30%;
+}
+
+.c_one{
+    margin-left:10px;
+    width :80px;
+    height:80px;
+    border: 8px solid;
+    border-radius:50%;
+    border-bottom-color:cadetblue;
+    border-left-color:white;
+    border-top-color:cadetblue;
+    border-right-color:cadetblue;
+}
+
+.c_one h1{
+    margin-left :25%;
+}

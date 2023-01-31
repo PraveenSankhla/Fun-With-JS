@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Praveen</title>
+    <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+    <div>
+        <h2>Marks Details</h2>
+    </div>
+  
+    <div class="mark">
+        <div class="marks">
+            <div class="circle"></div>
+            <h1>50</h1>
+        </div>
+        <div class="marks2">
+            <div class="circle2"></div>
+            <h1>75</h1>
+        </div>
+
+        <div class="c_one">
+            <h1 id="c_one_heading">75</h1>
+        </div>
+    </div>
+
+    <div class="mark">
+    <input type="text" placeholder="Enter Marks for Chemistry" id="chemistry2" />
+        <button onclick=getvalue2()>Submit</button>
+        </div>
+
+    <div class="main-marks">
+        <h3>Physics</h3>
+        <progress class="marksprogress" value="40" max="100" id="prog1"></progress>
+        <h3>Chemistry</h3>
+        <progress class="marksprogress" value="80" max="100" id="prog2"></progress>
+    </div>
+
+    <div class="mark">
+        <input type="text" placeholder="Enter Marks for Chemistry" id="chemistry"/>
+        <input type="text" placeholder="Enter Marks for Physics" id="physics"/> 
+        <button onclick=getvalue()>Submit</button>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
